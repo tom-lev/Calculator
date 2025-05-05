@@ -63,3 +63,7 @@ button {
   font-size: 14px;
   cursor: pointer;
 }
+//* Style for the button hover effect */
+button:hover {
+  background-color: #ddd;
+}
