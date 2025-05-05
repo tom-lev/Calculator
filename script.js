@@ -1,5 +1,5 @@
 const display = document.getElementById('display');
-const buttons = document.querySelectorAll('button');
+const buttons = document.querySelectorAll('.buttons button');
 
 let currentInput = '';
 
@@ -23,4 +23,11 @@ buttons.forEach(button => {
       display.value = currentInput;
     }
   });
+});
+
+// Dark mode toggle logic
+const toggleButton = document.getElementById('theme-toggle');
+
+toggleButton.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
 });
