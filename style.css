@@ -63,11 +63,12 @@ button {
   font-size: 14px;
   cursor: pointer;
 }
-//* Style for the button hover effect */
+/* Button hover effect */
 button:hover {
   background-color: #ddd;
 }
-//* Style for the dark mode button hover effect */
+
+/* Dark mode button hover effect */
 .dark-mode button:hover {
-  background-color: #666;
+  background-color: #777; /* Adjusted for better contrast in dark mode */
 }
