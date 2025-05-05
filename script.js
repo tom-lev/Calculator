@@ -1,8 +1,10 @@
 const display = document.getElementById('display');
+// Select ONLY the calculator buttons inside the .buttons container
 const buttons = document.querySelectorAll('.buttons button');
 
 let currentInput = '';
 
+// Calculator button logic
 buttons.forEach(button => {
   button.addEventListener('click', () => {
     const value = button.textContent;
@@ -25,7 +27,7 @@ buttons.forEach(button => {
   });
 });
 
-// Dark mode toggle logic
+// Dark mode toggle button logic
 const toggleButton = document.getElementById('theme-toggle');
 
 toggleButton.addEventListener('click', () => {
