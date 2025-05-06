@@ -76,14 +76,15 @@ button.double-width {
   grid-column: span 2;
 }
 
-/* Theme toggle button */
 #theme-toggle {
-  position: absolute;
+  position: fixed;  /* Change from absolute to fixed */
   top: 20px;
   right: 20px;
   padding: 10px 15px;
   font-size: 14px;
   cursor: pointer;
+  z-index: 10; /* Make sure it's above other content */
+}
 }
 
 /* Responsive styles for phones */
