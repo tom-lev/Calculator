@@ -72,3 +72,31 @@ button:hover {
 .dark-mode button:hover {
   background-color: #777; /* Adjusted for better contrast in dark mode */
 }
+/* Responsive design for phones */
+@media (max-width: 600px) {
+  .calculator {
+    width: 90%;
+    padding: 15px;
+    box-shadow: 1px 1px 5px #aaa;
+  }
+
+  #display {
+    font-size: 16px;
+    height: 35px;
+  }
+
+  .buttons {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+
+  button {
+    height: 35px;
+    font-size: 16px;
+  }
+
+  #theme-toggle {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+}
