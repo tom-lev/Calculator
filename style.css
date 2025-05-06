@@ -9,6 +9,12 @@ body {
   padding-top: 40px;
 }
 
+h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
 /* Dark mode */
 .dark-mode {
   background-color: #333;
